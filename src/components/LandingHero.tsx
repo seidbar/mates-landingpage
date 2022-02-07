@@ -1,11 +1,9 @@
 export const LandingHero = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
     <div className="flex flex-col justify-center items-center p-24 md:p-10 lg:p-32 bg-magnolia">
-      <img
-        src="/public/logo.png"
-        alt="Mates Logo"
-        className="absolute top-5 left-5"
-      />
+      <div className="absolute top-5 left-5">
+        <img src="/logo.png" alt="Mates Logo" />
+      </div>
       <div>
         <h1 className="text-6xl font-bold my-6">find your mates.</h1>
         <div className="w-3/5 flex flex-col">
@@ -24,7 +22,9 @@ export const LandingHero = () => (
       </div>
     </div>
     <div className="flex">
-      <p>gif</p>
+      <video autoPlay muted loop className="object-cover">
+        <source src="/video/mates.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 );
