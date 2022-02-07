@@ -1,6 +1,6 @@
 export const LandingHero = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
-    <div className="flex flex-col justify-center items-center p-24 md:p-10 lg:p-32 bg-gray-200">
+    <div className="flex flex-col justify-center items-center p-24 md:p-10 lg:p-32 bg-magnolia">
       <img
         src="/public/logo.png"
         alt="Mates Logo"
