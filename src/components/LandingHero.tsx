@@ -7,15 +7,20 @@ export const LandingHero = () => (
         className="absolute top-5 left-5"
       />
       <div>
-        <h1 className="text-6xl font-bold my-5">find your mates.</h1>
-        <p className="w-3/5">
-          Neu in der Stadt? Keine Lust mehr auf Zweck-WG? Lerne Leute kennen mit
-          denen du zusammen leben mächtest: Sei ganz du selbst und finde deine
-          WG!
-        </p>
-        <button className="bg-white rounded-2xl px-3 py-1" type="button">
-          Sign up for free
-        </button>
+        <h1 className="text-6xl font-bold my-6">find your mates.</h1>
+        <div className="w-3/5 flex flex-col">
+          <p className="my-6">
+            Neu in der Stadt? Keine Lust mehr auf Zweck-WG? Lerne Leute kennen
+            mit denen du zusammen leben mächtest: Sei ganz du selbst und finde
+            deine WG!
+          </p>
+          <button
+            className="bg-white rounded-2xl px-3 py-1 self-end"
+            type="button"
+          >
+            Sign up for free
+          </button>
+        </div>
       </div>
     </div>
     <div className="flex">

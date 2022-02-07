@@ -4,6 +4,9 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+        'poppins':  ['Poppins', 'sans-serif'],
+    },
     extend: {
         colors: {
             magnolia: '#ebedfa',
