@@ -1,4 +1,4 @@
-export const AppFrameDemo = () => (
+export const AppFrame = () => (
   <div className="flex h-screen justify-center items-center ">
     <div className="h-2/3">
       <img

@@ -1,4 +1,6 @@
-export const LandingHero = () => (
+import { VideoLoop } from './VideoLoop';
+
+export const SlideHome = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
     <div className="flex flex-col justify-center items-center p-24 md:p-10 lg:p-32 bg-magnolia">
       <div className="absolute top-5 left-5">
@@ -21,10 +23,6 @@ export const LandingHero = () => (
         </div>
       </div>
     </div>
-    <div className="flex">
-      <video autoPlay muted loop className="object-cover">
-        <source src="/video/mates.mp4" type="video/mp4" />
-      </video>
-    </div>
+    <VideoLoop video="mates" />
   </div>
 );

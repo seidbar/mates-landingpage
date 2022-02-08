@@ -1,7 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { AppHighlight } from '../components/AppHighlight';
-import { LandingHero } from '../components/LandingHero';
+import { SlideApp } from '../components/SlideApp';
+import { SlideAppReverse } from '../components/SlideAppReverse';
+import { SlideHome } from '../components/SlideHome';
+import { SlideSignUp } from '../components/SlideSignUp';
 
 const Home: NextPage = () => (
   <div>
@@ -14,8 +16,10 @@ const Home: NextPage = () => (
         rel="stylesheet"
       />
     </Head>
-    <LandingHero />
-    <AppHighlight />
+    <SlideHome />
+    <SlideApp />
+    <SlideAppReverse />
+    <SlideSignUp />
   </div>
 );
 

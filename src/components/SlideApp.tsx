@@ -1,9 +1,9 @@
-import { AppFrameDemo } from './AppFrameDemo';
+import { AppFrame } from './AppFrame';
 
-export const AppHighlight = () => (
+export const SlideApp = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
     <div className="bg-candy">
-      <AppFrameDemo />
+      <AppFrame />
     </div>
     <div className="flex flex-col justify-center p-24 md:p-10 lg:p-32 bg-ghost">
       <h1 className="text-6xl font-bold my-6">Lorem ipsum.</h1>
