@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { AppHighlight } from '../components/AppHighlight';
 import { LandingHero } from '../components/LandingHero';
 
 const Home: NextPage = () => (
@@ -14,6 +15,7 @@ const Home: NextPage = () => (
       />
     </Head>
     <LandingHero />
+    <AppHighlight />
   </div>
 );
 
