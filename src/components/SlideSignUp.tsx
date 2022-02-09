@@ -3,7 +3,7 @@ import { TextSlideWrapper } from './TextSlideWrapper';
 
 export const SlideSignUp = () => (
   <div className="grid grid-cols-1 md:grid-cols-2">
-    <div className="h-screen flex">
+    <div className="flex">
       <VideoLoop video="tv" />
     </div>
     <TextSlideWrapper styles="bg-ghost">

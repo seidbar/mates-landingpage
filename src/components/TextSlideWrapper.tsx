@@ -6,7 +6,7 @@ export const TextSlideWrapper = ({
   styles?: string;
 }) => (
   <div
-    className={`flex flex-col h-screen justify-center items-center p-10 md:p-10 lg:p-32 ${
+    className={`flex flex-col md:h-screen justify-center items-center p-10 md:p-10 lg:p-32 ${
       styles ?? ''
     }`}
   >

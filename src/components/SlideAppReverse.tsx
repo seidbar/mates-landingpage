@@ -12,7 +12,7 @@ export const SlideAppReverse = () => (
         </p>
       </div>
     </TextSlideWrapper>
-    <div className="bg-magnolia h-screen">
+    <div className="bg-magnolia h-96 md:h-screen">
       <AppFrame />
     </div>
   </div>
