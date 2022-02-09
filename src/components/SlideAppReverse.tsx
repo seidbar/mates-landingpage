@@ -1,8 +1,9 @@
 import { AppFrame } from './AppFrame';
+import { TextSlideWrapper } from './TextSlideWrapper';
 
 export const SlideAppReverse = () => (
-  <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
-    <div className="flex flex-col justify-center p-24 md:p-10 lg:p-32 bg-ghost">
+  <div className="grid grid-cols-1 md:grid-cols-2">
+    <TextSlideWrapper styles="bg-ghost">
       <h1 className="text-6xl font-bold my-6">Lorem ipsum.</h1>
       <div className="flex flex-col">
         <p className="my-6">
@@ -10,8 +11,8 @@ export const SlideAppReverse = () => (
           adipiscing eu lectus eu.
         </p>
       </div>
-    </div>
-    <div className="bg-magnolia">
+    </TextSlideWrapper>
+    <div className="bg-magnolia h-screen">
       <AppFrame />
     </div>
   </div>

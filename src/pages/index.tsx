@@ -16,6 +16,7 @@ const Home: NextPage = () => (
         rel="stylesheet"
       />
     </Head>
+
     <SlideHome />
     <SlideApp />
     <SlideAppReverse />

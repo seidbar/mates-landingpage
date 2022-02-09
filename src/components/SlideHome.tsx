@@ -1,14 +1,15 @@
+import { TextSlideWrapper } from './TextSlideWrapper';
 import { VideoLoop } from './VideoLoop';
 
 export const SlideHome = () => (
-  <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
-    <div className="flex flex-col justify-center items-center p-24 md:p-10 lg:p-32 bg-magnolia">
+  <div className="grid grid-cols-1 md:grid-cols-2">
+    <div>
       <div className="absolute top-5 left-5">
         <img src="/logo.png" alt="Mates Logo" />
       </div>
-      <div>
+      <TextSlideWrapper styles="bg-magnolia">
         <h1 className="text-6xl font-bold my-6">find your mates.</h1>
-        <div className="w-3/5 flex flex-col">
+        <div className="md:w-3/5 flex flex-col">
           <p className="my-6">
             Neu in der Stadt? Keine Lust mehr auf Zweck-WG? Lerne Leute kennen
             mit denen du zusammen leben mächtest: Sei ganz du selbst und finde
@@ -21,8 +22,11 @@ export const SlideHome = () => (
             Sign up for free
           </button>
         </div>
-      </div>
+      </TextSlideWrapper>
     </div>
-    <VideoLoop video="mates" />
+
+    <div className="flex h-screen">
+      <VideoLoop video="mates" />
+    </div>
   </div>
 );
